@@ -1,5 +1,4 @@
 #This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
-import requests
 from flight_search import FlightSearch
 from data_manager import DataManager
 from pprint import pprint
@@ -13,6 +12,7 @@ for flight in sheet_data:
 
 data_manager.iataCode_sheet_update(sheet_data)
 
+pprint(sheet_data)
 
 
 
